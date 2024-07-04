@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Product Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="product-image">
+            <div class="thumbnail-images" id="thumbnailImages"></div>
+
+            <img id="mainImage" src="Images/img_1.jpeg" width="587px" height="619px" alt="Product Image">
+
+            <div class="small-img-group" class="section-p1">
+                <div class="small-img-col">
+                    <img src="Images/Frame 5.svg" width="520px" height="115px" class="small-img">
+                </div>
+            </div>
+
+        </div>
+        <div class="product-details">
+            <div class="product-vendor" id="productVendor"></div>
+            <h1 class="product-title" id="productTitle"></h1>
+            <div class="price">
+                <div>
+                    <span class="new-price" id="newPrice">$12999.00</span>
+                    <span class="discount" id="discount">35% Off</span>
+                </div>
+                <span class="old-price" id="oldPrice">$19999.00</span>
+
+            </div>
+
+            <div class="color-options">
+                <span>Choose a Color</span>
+                <div class="colors" id="colorOptions"></div>
+            </div>
+
+            <div class="size-options">
+                <span>Choose a Size</span>
+                <div class="sizes" id="sizeOptions"></div>
+            </div>
+
+            <div class="quantity">
+                <button class="quantity-decrease">-</button>
+                <span class="quantity-number">1</span>
+                <button class="quantity-increase">+</button>
+                <button class="add-to-cart">Add To Cart</button>
+            </div>
+
+            <p class="description" id="productDescription">The Embrace Sideboard is a stylish wear. With a top cloth<br>
+                designed to provide superior protection and look great, this<br> storage solution is both functional and
+                attractive. It fits<br> seamlessly into any home decor, with clean lines and a<br> timeless look.
+                Crafted from
+                premium materials for a <br>combination of style, durability, and reliability.
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
